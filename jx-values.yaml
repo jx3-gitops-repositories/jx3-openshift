@@ -9,7 +9,7 @@ jxRequirements:
       gitURL: https://github.com/jenkins-x/jx3-pipeline-catalog.git
   cluster:
     chartRepository: http://bucketrepo/bucketrepo/charts
-    clusterName: todo
+    clusterName: kind
     devEnvApprovers:
     - todo
     environmentGitOwner: todo
@@ -50,7 +50,6 @@ jxRequirements:
   gitops: true
   ingress:
     domain: ""
-    exposer: Route
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
