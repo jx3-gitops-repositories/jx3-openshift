@@ -32,6 +32,12 @@ releases:
   namespace: jx
   values:
   - versionStream/charts/jx3/jenkins-x-crds/values.yaml.gotmpl
+- chart: cdf/tekton-pipeline
+  version: 0.17.1
+  name: tekton-pipeline
+  namespace: tekton-pipelines
+  values:
+  - versionStream/charts/cdf/tekton-pipeline/values.yaml.gotmpl
 - chart: jx3/jx-pipelines-visualizer
   version: 0.0.52
   name: jx-pipelines-visualizer
