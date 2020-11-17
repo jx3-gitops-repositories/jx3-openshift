@@ -32,7 +32,7 @@ environments:
   repository: ""
 gitops: true
 ingress:
-  domain: ""
+  domain: "apps.lab-okd4.mecon.ar"
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
